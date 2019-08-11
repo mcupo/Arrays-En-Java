@@ -1,6 +1,6 @@
 package ar.edu.ort.tp1.unidad1d.recorrerarrays;
 
-public class ComoRecorrerArraysDePrimitivas {
+public class AComoRecorrerArraysDePrimitivas {
 
 	private static String [] diasDeLaSemana = {"Lunes", "Martes", "Miercoles", "Jueves", 
 			"Viernes", "Sábado", "Domingo"};
