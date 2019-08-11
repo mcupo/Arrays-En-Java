@@ -18,7 +18,7 @@ public class CalcularTamanio {
 		System.out.println("El tamaño del array de dias es de " + diasDeLaSemana.length);
 		
 		/*
-		 * En el caso de un array de 2 dimensiones, el método length nos dará el tamaño de la primer dimension
+		 * En el caso de un array de 2 dimensiones, el atributo length nos dará el tamaño de la primer dimension
 		 * (la cantidad de filas).
 		 * Para conocer el tamaño de la segunda dimensión, debemos acceder al primer elemento de la primera
 		 * dimensión y llamar al método lenght.
