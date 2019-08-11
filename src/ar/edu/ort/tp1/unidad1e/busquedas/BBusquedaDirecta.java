@@ -17,7 +17,8 @@ public class BBusquedaDirecta {
 	//por lo que si quiero obtener el día Lunes, debo posicionarme sobre el indice 0
 	public static String obtenerDia(int i){
 		String dia = "No existe un dia con ese número";
-		if(i> diasDeLaSemana.length || i<=0)
+		//Siempre debo validar que no se exceda de los límites del tamaño y que no sea null
+		if(i> diasDeLaSemana.length || i<=0 || diasDeLaSemana[i-1] == null)
 			return dia;
 		else
 			return diasDeLaSemana[i-1];
