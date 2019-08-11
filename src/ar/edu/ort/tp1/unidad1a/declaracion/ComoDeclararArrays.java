@@ -1,4 +1,4 @@
-package ar.edu.ort.tp1.unidad1.declaracion;
+package ar.edu.ort.tp1.unidad1a.declaracion;
 
 public class ComoDeclararArrays {
 	

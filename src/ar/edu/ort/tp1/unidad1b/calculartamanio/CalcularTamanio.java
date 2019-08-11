@@ -1,4 +1,4 @@
-package ar.edu.ort.tp1.unidad1.calculartamanio;
+package ar.edu.ort.tp1.unidad1b.calculartamanio;
 
 public class CalcularTamanio {
 
