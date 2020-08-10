@@ -58,6 +58,15 @@ public class ComoDeclararArrays {
 	private static char [][] algunasLetras = { { 'A', 'B', 'C', 'D' }, { 'E', 'F' }, { 'G',
 		'H', 'I', 'J', 'K', 'L' }, { 'M', 'N' } };
 	
+	public ComoDeclararArrays(){
+	/*
+	 * Si voy a definir el contenido un array luego de su declaración, debo hacerlo de la siguiente manera:
+	 */
+		diasDeLaSemana = new String [] { "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo" };
+		//Si intentamos definirlo sin el new, el compilador arrojara un error:
+		//diasDeLaSemana = { "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo" };
+	}
+	
 	public static void main(String[] args) {
 		
 	}
