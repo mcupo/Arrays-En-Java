@@ -68,6 +68,12 @@ public class ComoDeclararArrays {
 	}
 	
 	public static void main(String[] args) {
+	
+		//Como acceder a los valores una vez declarados
+		int [] numeros = new int [10];
+		//Accedo usando las llaves y el valor del índice
+		numeros[0] = 1;
 		
+		System.out.println(numeros[0]);
 	}
 }
